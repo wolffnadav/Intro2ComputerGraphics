@@ -1,0 +1,14 @@
+Readme:
+
+Explanation of showSeams method -
+    We are initialize boolean 2D array - showSeamMatrix,
+    it holds in each point true if this pixel index belongs to some seam or false otherwise.
+
+    1. First we create a new empty image.
+    2. Then checking if we need to make reduce(then produce "reduceImageWidth")
+        else increase the image (with "increaseImageWidth").
+        We are doing this to get all the seams that need to be show.
+    3. Then we set the image inputParameters with "setForEachInputParameters".
+    4. Then we traverse all over the new image pixels and for all pixels that are in some seam change
+        their color to "seamColorRGB" which we get as an input, or else keep the pixel colors as it is.
+    5. Finally we return the new image.
