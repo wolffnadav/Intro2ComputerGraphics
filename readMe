@@ -1,7 +1,8 @@
 README
 
-In this exercise I was implement and explore image resizing using the seam carving algorithm, 
+In this exercise I was implement image resizing using the seam carving algorithm, 
 along with other basic image processing operations.
+
 The different operations:
 - Changing the image's hue.
 - Conversion into grayscale.
